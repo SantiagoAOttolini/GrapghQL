@@ -8,7 +8,7 @@ app.use(cors());
 
 const server = new ApolloServer({
   schema,
-  //Enable client for request
+  //playground: Enable client for request
   playground: true,
   introspection: true,
 });
