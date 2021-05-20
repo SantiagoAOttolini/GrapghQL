@@ -1,5 +1,5 @@
 # Graph QL
-* Use JSON file, TypeScript and Grapg QL
+* Use JSON file, TypeScript and Graph QL
 
 ## Install and start
 * Install: npm install 
