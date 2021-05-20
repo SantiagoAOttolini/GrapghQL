@@ -9,6 +9,7 @@ type Character {
   race: Race
 }
 
+
 enum Race {
   Dog
   Cat 

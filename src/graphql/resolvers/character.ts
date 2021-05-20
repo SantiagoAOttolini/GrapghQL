@@ -1,6 +1,6 @@
 import { IResolvers } from "graphql-tools";
 
-const resolvers: IResolvers = {
+export const character: IResolvers = {
   Query: {
     hello() {
       return "world";
@@ -22,4 +22,3 @@ const resolvers: IResolvers = {
   },
 };
 
-export default resolvers;
