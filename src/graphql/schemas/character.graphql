@@ -4,7 +4,7 @@ type Query {
 }
 
 type Mutation {
-  createCharacter(character: NewCharacterInput): String
+  createCharacter(character: NewCharacterInput!): String! 
 }
 
 type Character {
@@ -26,6 +26,7 @@ enum Gender {
   FEMALE
 }
 
+""" Input type """
 input NewCharacterInput{
   name: String!
   race: Race!
